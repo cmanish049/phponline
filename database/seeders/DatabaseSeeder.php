@@ -17,9 +17,9 @@ class DatabaseSeeder extends Seeder
 //            );
 //        }
         $user = User::factory()->create([
-            'first_name' => 'Steve',
+            'first_name' => 'Manish',
             'last_name' => 'Chaudhary',
-            'email' => 'bcoolboy8@gmail.com',
+            'email' => 'cmanish049@gmail.com',
         ]);
         Post::factory(20)->for(
             $user

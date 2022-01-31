@@ -10,9 +10,9 @@ class DefaultUserSeeder extends Seeder
     public function run(): void
     {
         User::factory()->create([
-            'first_name' => 'Subash',
+            'first_name' => 'Manish',
             'last_name' => 'Chaudhary',
-            'email' => 'bcoolboy8@gmail.com',
+            'email' => 'cmanish049@gmail.com',
         ]);
     }
 }
